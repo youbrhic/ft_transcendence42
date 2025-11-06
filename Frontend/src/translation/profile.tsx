@@ -1,0 +1,115 @@
+// English: has been removed from your friends list
+
+// French: a été supprimé de votre liste d’amis
+
+// Spanish: ha sido eliminado de tu lista de amigos
+
+export const profile = {
+	en: {
+		Profile_word: 'Profile',
+		Logout_word: 'Logout',
+		cover: "Cover",
+		profile: 'Profile',
+		request_sent: "Request Sent",
+		add_friend: "Add Friend",
+		remove_friend: "Remove Friend",
+		chat: "Chat",
+		removed_message: "{{username}} has been removed from your friends list",
+		level: "Level",
+		wins: "Wins",
+		loses: "Loses",
+		draws: "Draws",
+		matches: "Matches",
+		rank: "Rank",
+		game_results_overview: "🏆 Game Results Overview",
+		match_singular: "Match",
+		match_plural: "Matches",
+
+		match_history: "🎮 Match History",
+		game: "Game",
+		date: "Date",
+		opponent: "Opponent",
+		result: "Result",
+		score: "Score",
+		result_win: "Win",
+		result_loss: "Loss",
+		result_draw: "Draw",
+
+		games_played_title: "📊 Games Played (Pong / Tic Tac)",
+		game_pong: "Pong",
+		game_tictac: "Tic Tac Toe",
+		remove_onefriend : 'has been removed from your friends list'
+	},
+	fr: {
+		Profile_word: 'Profil',
+		Logout_word: 'Déconnexion',
+		cover: "Couverture",
+		profile: 'Profil',
+		request_sent: "Demande envoyée",
+		add_friend: "Ajouter un ami",
+		remove_friend: "Supprimer un ami",
+		chat: "Discussion",
+		removed_message: "{{username}} a été supprimé de votre liste d'amis",
+		level: "Niveau",
+		wins: "Victoires",
+		loses: "Défaites",
+		draws: "Égalités",
+		matches: "Matches",
+		rank: "Classement",
+		game_results_overview: "🏆 Résumé des résultats de jeu",
+		match_singular: "Match",
+		match_plural: "Matches",
+
+		match_history: "🎮 Historique des matchs",
+		game: "Jeu",
+		date: "Date",
+		opponent: "Adversaire",
+		result: "Résultat",
+		score: "Score",
+		result_win: "Victoire",
+		result_loss: "Défaite",
+		result_draw: "Nul",
+
+		games_played_title: "📊 Jeux Joués (Pong / Morpion)",
+		game_pong: "Pong",
+		game_tictac: "Morpion",
+		remove_onefriend : 'a été supprimé de votre liste d’amis'
+	},
+	es: {
+		Profile_word: 'Perfil',
+		Logout_word: 'Cerrar sesión',
+		cover: "Portada",
+		profile: 'Perfil',
+		request_sent: "Solicitud enviada",
+		add_friend: "Agregar amigo",
+		remove_friend: "Eliminar amigo",
+		chat: "Chat",
+		removed_message: "{{username}} ha sido eliminado de tu lista de amigos",
+		level: "Nivel",
+		wins: "Victorias",
+		loses: "Derrotas",
+		draws: "Empates",
+		matches: "Partidos",
+		rank: "Rango",
+		game_results_overview: "🏆 Resumen de resultados del juego",
+		match_singular: "Partido",
+		match_plural: "Partidos",
+
+		match_history: "🎮 Historial de Partidos",
+		game: "Juego",
+		date: "Fecha",
+		opponent: "Oponente",
+		result: "Resultado",
+		score: "Puntuación",
+		result_win: "Victoria",
+		result_loss: "Derrota",
+		result_draw: "Empate",
+
+		games_played_title: "📊 Juegos Jugados (Pong / Tic Tac)",
+		game_pong: "Pong",
+		game_tictac: "Tres en Raya",
+		remove_onefriend : 'ha sido eliminado de tu lista de amigos'
+	},
+};
+
+export default profile;

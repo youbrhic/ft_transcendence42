@@ -1,0 +1,16 @@
+Modules :
+* Major module: Use a framework to build the backend.
+* Major module: Standard user management, authentication, users across tournaments
+* Major module: Implementing a remote authentication.<---
+* Major module: Remote players
+* Major module: Add another game with user history and matchmaking.
+* Major module: Live chat.
+* Major module: Implement Two-Factor Authentication (2FA) and JWT.<---
+
+* Minor module: Use a database for the backend.
+* Minor module: Game customization options
+* Minor module: Monitoring system.
+* Minor module: Support on all devices
+* Minor module: Supports multiple languages
+* Minor module: Expanding browser compatibility.
+* Minor module: Use a framework or toolkit to build the front-end.

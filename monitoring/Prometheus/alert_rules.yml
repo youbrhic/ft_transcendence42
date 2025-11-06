@@ -1,0 +1,22 @@
+groups:
+  - name: node-alerts
+    rules:
+      - alert: NodeDown
+        expr: up{job="node-exporter"} == 0
+        for: 20s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Node exporter is down"
+          description: "Node exporter on {{ $labels.instance }} is not reachable."
+
+  - name: nginx-alerts
+    rules:
+      - alert: NginxDown
+        expr: up{job="nginx-exporter"} == 0
+        for: 20s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Nginx exporter is down"
+          description: "Nginx exporter on {{ $labels.instance }} is not reachable."
